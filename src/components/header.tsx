@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from "../../public/image.png";
+
 
 export default function Header(){
     return(
