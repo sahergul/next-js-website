@@ -1,7 +1,7 @@
 
 export default function Contact(){
     return(
-            
+     
    
     <section id="contact" className="text-center py-20 bg-transparent">
                 <h2 className="text-3xl font-bold">Get In Touch</h2>
