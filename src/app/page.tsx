@@ -6,10 +6,17 @@ import Contact from './contact/page';
 
 export default function Home() {
     return (
-        <main className="bg-gray-100 flex flex-col min-h-screen">           
+        <main className="bg-gray-100 flex flex-col max-w-screen-2xl ">           
                   
-            <Image src={pic} alt="laptop-computers" className="bg-cover bg-center bg-no-repeat h-screen w-full"/>
-            
+        <div className="relative w-full h-72 sm:h-screen">
+        <Image
+        src={pic}
+        alt="laptop-computers"
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center"
+        className="bg-cover bg-center bg-no-repeat"/>
+        </div>
             
             <About />
             <Services />
